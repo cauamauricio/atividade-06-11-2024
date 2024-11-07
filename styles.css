@@ -114,33 +114,29 @@ section {
 /* footer */
 
 footer {
-    text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color:  rgb(144, 108, 60);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(144, 108, 60);
     color: white;
-    text-align: center;
-    padding: 0px 0;
-    border: 10px solid #401e03;  
+    padding: 10px;
+    border: 10px solid #401e03;
+    position: relative; 
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+}
+
+.img5 {
+    width: 5%;
+    position: absolute;
+    right: 10px;
 }
 
 footer p {
     font-size: large;
+    margin: 0;
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.img5 {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    right:0;
-    width:5%;
-}
-
-.copy {
-
-display: inline-flex;
 }
